@@ -7,7 +7,7 @@ const port = process.env.PORT;
 
 app.use(cors());
 
-app.get("/", (req, res) => res.send("Get Method"));
+app.get("/", (req, res) => res.send("Get Method Teraru"));
 app.post("/", (req, res) => res.send("Post Method"));
 
 app.listen(port, () => console.log("Server ready on port 3000."));
